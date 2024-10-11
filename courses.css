@@ -1,0 +1,150 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #da1009;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #a30e0e;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #2503be;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+header nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Courses Section */
+#courses {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+#courses h2 {
+    color: #0e0f0e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.course-item {
+    background-color: #e21010;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-item h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.course-item p {
+    margin-bottom: 10px;
+}
+
+.course-item .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(226, 221, 221);
+    border-radius: 5px;
+}
+
+.course-item .button:hover {
+    background-color: #45a049;
+}
+
+
+/* Certifications Section */
+#certifications {
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+#certifications h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.cert-item {
+    background-color: #0c0b0b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cert-item h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.cert-item p {
+
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

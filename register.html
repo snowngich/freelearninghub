@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Free Learning Hub</title>
+    <link rel="stylesheet" href="register.css"> <!-- Linking to the register-specific CSS -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Register for Free Learning</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="live-classes.html">Live Classes</a></li>
+                <li><a href="register.html" class="active">Register</a></li>
+                <li><a href="courses.html">courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Registration Form Section -->
+    <section id="register-form">
+        <h2>Create Your Free Learning Account</h2>
+        <form action="register_process.php" method="POST">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm your password" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Free Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

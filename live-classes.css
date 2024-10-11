@@ -1,0 +1,118 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+header nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Upcoming Classes Section */
+#upcoming-classes {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.class-item {
+    background-color: #e3e3e3;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.class-item h3 {
+    color: #4CAF50;
+}
+
+/* Recorded Classes Section */
+#recorded-classes {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.recorded-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #4CAF50;
+    border-radius: 4px;
+}
+
+.recorded-item h4 {
+    color: #4CAF50;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

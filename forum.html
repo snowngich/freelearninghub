@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum - Free Learning Hub</title>
+    <link rel="stylesheet" href="forum.css"> <!-- Linking to the forum-specific CSS -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Discussion Forum</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="forum.html" class="active">Forum</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="live-classes.html">Live Classes</a></li>
+                <li><a href="register.html">register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Forum Categories Section -->
+    <section id="forum-categories">
+        <h2>Forum Categories</h2>
+        <div class="categories">
+            <div class="category-item">
+                <h3>General Discussions</h3>
+                <p>Talk about anything related to learning, education, and more.</p>
+            </div>
+            <div class="category-item">
+                <h3>Web Development</h3>
+                <p>Share your thoughts and questions about HTML, CSS, JavaScript, and more.</p>
+            </div>
+            <div class="category-item">
+                <h3>Programming</h3>
+                <p>Discuss coding topics including Python, Java, and algorithms.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discussions Section -->
+    <section id="discussions">
+        <h2>Latest Discussions</h2>
+        <div class="discussion-item">
+            <h4>How do I start learning JavaScript?</h4>
+            <p><strong>Posted by:</strong> User123 | <strong>Date:</strong> Oct 10, 2024</p>
+            <p>Can anyone recommend a good JavaScript course for beginners?</p>
+        </div>
+
+        <div class="discussion-item">
+            <h4>Best resources for Python data science</h4>
+            <p><strong>Posted by:</strong> DataGuru | <strong>Date:</strong> Oct 9, 2024</p>
+            <p>Looking for data science tutorials or resources specifically for Python. Any recommendations?</p>
+        </div>
+    </section>
+
+    <!-- Create New Discussion Section -->
+    <section id="new-discussion">
+        <h2>Start a New Discussion</h2>
+        <form action="submit_discussion.php" method="POST">
+            <label for="discussion-title">Discussion Title:</label>
+            <input type="text" id="discussion-title" name="title" required>
+
+            <label for="discussion-content">Discussion Content:</label>
+            <textarea id="discussion-content" name="content" rows="5" required></textarea>
+
+            <button type="submit">Post Discussion</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Free Learning Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>
