@@ -6,50 +6,49 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     line-height: 1.6;
-    background-color: #3100a3;
-    color: #ffffff;
 }
 
-h1, h2, h3 {
-    color: #0ef32d;
-    margin-bottom: 10px;
+h1, h2, h3, h4 {
+    color: #333;
 }
 
-p {
-    margin-bottom: 20px;
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Header Styles */
 header {
-    background-color: #280086;
-    color: rgb(248, 245, 253);
+    background-color: #4CAF50;
+    color: white;
     padding: 20px 0;
     text-align: center;
 }
 
-header h1 {
-    font-size: 2.5rem;
-}
-
-nav ul {
+header nav ul {
     list-style: none;
     margin-top: 10px;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
     margin-right: 15px;
 }
 
-nav ul li a {
+header nav ul li a {
     color: white;
-    text-decoration: none;
     font-size: 1.2rem;
 }
 
-nav ul li a:hover {
+header nav ul li a.active {
     text-decoration: underline;
 }
 
@@ -57,7 +56,7 @@ nav ul li a:hover {
 section {
     padding: 40px 20px;
     margin: 20px 0;
-    background-color: rgb(214, 3, 3);
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -70,7 +69,7 @@ section {
 }
 
 .course-item {
-    background-color: #e60914;
+    background-color: #c9bfbf;
     padding: 20px;
     border-radius: 8px;
     flex: 1;
@@ -78,14 +77,14 @@ section {
 }
 
 .course-item h3 {
-    color: #4CAF50;
+    color: #060706;
 }
 
 /* Buttons */
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #df0909;
+    background-color: #111311;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -97,7 +96,7 @@ section {
 
 /* Form Styles */
 form {
-    background-color: #080cf5;
+    background-color: #e5e5e9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -123,7 +122,7 @@ form input[type="password"] {
 
 form button {
     padding: 10px 20px;
-    background-color: #d30a14;
+    background-color: #040504;
     color: white;
     border: none;
     border-radius: 5px;
@@ -136,7 +135,7 @@ form button:hover {
 
 /* Footer Styles */
 footer {
-    background-color: #e40404;
+    background-color: #f8f5f5;
     color: white;
     text-align: center;
     padding: 10px 0;
