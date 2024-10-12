@@ -13,12 +13,12 @@ body {
 }
 
 h1, h2, h3, h4 {
-    color: #333;
+    color: #fcf1f1;
 }
 
 a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #2b0cd6;
 }
 
 a:hover {
@@ -27,7 +27,8 @@ a:hover {
 
 /* Header Styles */
 header {
-    background-color: #4CAF50;
+
+    background-color: #0a2ece;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -75,7 +76,7 @@ header nav ul li a.active {
 }
 
 .category-item h3 {
-    color: #4CAF50;
+    color: #3f06dd;
 }
 
 /* Discussions Section */
@@ -91,12 +92,12 @@ header nav ul li a.active {
     background-color: #f9f9f9;
     padding: 15px;
     margin-bottom: 15px;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #1d0acf;
     border-radius: 4px;
 }
 
 .discussion-item h4 {
-    color: #4CAF50;
+    color: #0924b9;
 }
 
 /* New Discussion Form */
@@ -124,7 +125,7 @@ form textarea {
 }
 
 form button {
-    background-color: #4CAF50;
+    background-color: #2e05e6;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -133,7 +134,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #0715db;
 }
 
 /* Footer */

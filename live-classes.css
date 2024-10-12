@@ -13,12 +13,12 @@ body {
 }
 
 h1, h2, h3, h4 {
-    color: #333;
+    color: #ffffff;
 }
 
 a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #1507df;
 }
 
 a:hover {
@@ -27,7 +27,7 @@ a:hover {
 
 /* Header Styles */
 header {
-    background-color: #4CAF50;
+    background-color: #061bd8;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -70,7 +70,7 @@ header nav ul li a.active {
 }
 
 .class-item h3 {
-    color: #4CAF50;
+    color: #0b07f0;
 }
 
 /* Recorded Classes Section */
@@ -86,26 +86,26 @@ header nav ul li a.active {
     background-color: #f9f9f9;
     padding: 15px;
     margin-bottom: 15px;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #080ce9;
     border-radius: 4px;
 }
 
 .recorded-item h4 {
-    color: #4CAF50;
+    color: #0c10f3;
 }
 
 /* Buttons */
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #0e0ace;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .button:hover {
-    background-color: #45a049;
+    background-color: #090ce0;
 }
 
 /* Footer */

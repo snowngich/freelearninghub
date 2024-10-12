@@ -13,12 +13,12 @@ body {
 }
 
 h1, h2, h3, h4 {
-    color: #333;
+    color: #faf4f4;
 }
 
 a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #2003c2;
 }
 
 a:hover {
@@ -27,7 +27,7 @@ a:hover {
 
 /* Header Styles */
 header {
-    background-color: #4CAF50;
+    background-color: #0704d1;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -62,7 +62,7 @@ header nav ul li a.active {
 }
 
 #courses h2 {
-    color: #0e0f0e;
+    color: #052daf;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -81,7 +81,7 @@ header nav ul li a.active {
 }
 
 .course-item h3 {
-    color: #4CAF50;
+    color: #1809df;
     margin-bottom: 10px;
 }
 
@@ -98,7 +98,7 @@ header nav ul li a.active {
 }
 
 .course-item .button:hover {
-    background-color: #45a049;
+    background-color: #2f09b9;
 }
 
 
@@ -112,7 +112,7 @@ header nav ul li a.active {
 }
 
 #certifications h2 {
-    color: #4CAF50;
+    color: #3308ce;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -131,7 +131,7 @@ header nav ul li a.active {
 }
 
 .cert-item h3 {
-    color: #4CAF50;
+    color: #3e05c2;
     margin-bottom: 10px;
 }
 
